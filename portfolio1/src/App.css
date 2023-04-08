@@ -1,0 +1,60 @@
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  /* width: 110%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  position: relative;
+  background: url("https://images.unsplash.com/photo-1452723312111-3a7d0db0e024?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450.jpg")
+    no-repeat left center / cover; */
+}
+#welcome-section{
+  position: relative;
+  width: 110%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: url("https://images.unsplash.com/photo-1452723312111-3a7d0db0e024?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450.jpg")
+  no-repeat left center / cover; 
+}
+#welcome-section h1 {
+  font-size: 85px;
+  color: white;
+  line-height: 1.25;
+  margin: 0px;
+}
+#welcome-section a {
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 16px;
+  font-size: 18px;
+  cursor: pointer;
+}
+#welcome-section a:hover {
+  background-color: white;
+  color:darkblue;
+  animation: pulse 1s infinite;
+  transition: .3s;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(.9);
+  }
+    100% {
+    transform: scale(1);
+  }
+}
+@media only screen and (max-width: 400px) {
+#welcome-section h1{
+  font-size: 50px;
+}
+}

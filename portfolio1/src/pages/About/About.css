@@ -1,0 +1,22 @@
+#about-container{
+    display:flex;
+    flex-direction: row;
+    height:100vh;
+}
+#about-container div,#about-container img{
+    width: 50%;
+}
+#about-container > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    background-color: #0f1922;
+    color:white;
+}
+#about-container h2{
+    color: #019cbb;
+}
+#about-container p{
+    color: lightgray;
+}
