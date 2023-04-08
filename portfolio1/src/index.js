@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import App from "./App.js";
 // eslint-disable-next-line import/no-named-as-default, import/no-named-as-default-member
-import reportWebVitals from "./reportWebVitals";
+import reportWebVitals from "./reportWebVitals.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

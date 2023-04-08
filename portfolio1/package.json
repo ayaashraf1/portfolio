@@ -71,5 +71,6 @@
     "jest-transform-stub": "^2.0.0",
     "prettier": "^2.8.7",
     "react-test-renderer": "^18.2.0"
-  }
+  },
+  "type": "module"
 }
